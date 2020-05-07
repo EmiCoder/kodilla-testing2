@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef89c00d-5ead-42d2-a5bd-f54b52531a52" name="Default Changelist" comment="" />
+    <list default="true" id="ef89c00d-5ead-42d2-a5bd-f54b52531a52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kodilla/testing2/crudapp/testCrudApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kodilla/testing2/google/google/GoogleTestingApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kodilla/testing2/google/google/GoogleTestingApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/testing2/google/google/GoogleTestingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/testing2/google/google/GoogleTestingApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +36,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bXXuuSp8TvOGb7zZ8ja4VXYdMt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,13 +57,39 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.EBayTestingApp">
+  <component name="RunManager" selected="Application.FacebookTestingApp">
+    <configuration name="CrudAppTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.crudapp.CrudAppTestingApp" />
+      <module name="kodilla-testing2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing2.crudapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EBayTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.ebay.EBayTestingApp" />
       <module name="kodilla-testing2.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kodilla.testing2.ebay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FacebookTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.facebook.FacebookTestingApp" />
+      <module name="kodilla-testing2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing2.facebook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,8 +110,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testCrudApp.myTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing2.crudapp.testCrudApp.myTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FacebookTestingApp" />
+        <item itemvalue="Gradle.testCrudApp.myTest" />
+        <item itemvalue="Application.CrudAppTestingApp" />
         <item itemvalue="Application.EBayTestingApp" />
         <item itemvalue="Application.GoogleTestingApp" />
       </list>
@@ -80,7 +150,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588779637444</updated>
-      <workItem from="1588779640461" duration="4492000" />
+      <workItem from="1588779640461" duration="5023000" />
+      <workItem from="1588786125009" duration="3011000" />
+      <workItem from="1588864928671" duration="2098000" />
     </task>
     <servers />
   </component>
@@ -88,21 +160,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1588785136167">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1588867100421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588785136167" />
-    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1588785136167">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588867100421" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1588867100421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588785136167" />
-    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1588785136167">
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588867100421" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1588867100421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588785136167" />
-    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1588785136167">
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588867100421" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1588867100421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588785136167" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588867100421" />
+    <state x="467" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1588864929934">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588864929934" />
+    <state x="397" y="109" width="742" height="606" key="find.popup" timestamp="1588865662082">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="397" y="109" width="742" height="606" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1588865662082" />
   </component>
 </project>
